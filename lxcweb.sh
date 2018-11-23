@@ -1,13 +1,13 @@
-
-Instalación en Debian Stretch
-Script de instalación y comentarios sobre las instrucciones:
-
 #!/bin/bash
 
 #Actualizamos los repositorios y los paquetes
-apt-get -y update
-apt-get -y upgrade
-
+export LANG=C
+apt-get update -y
+apt-get upgrade -y
+locale-gen es_ES.UTF-8
+export LC_ALL="es_ES.UTF-8"
+update-locale LC_ALL=es_ES.UTF-8 LANG=es_ES.UTF-8 LC_MESSAGES=POSIX
+dpkg-reconfigure locales
 #Instalamos curl y añadimos la clave publica
 apt-get -y install curl lxc
 curl https://packagecloud.io/gpg.key | apt-key add -
