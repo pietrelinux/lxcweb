@@ -1,5 +1,3 @@
- Manuel Franco   sysadmin   27 septiembre, 2017  1 Minute
-Esta interfaz está disponible para Ubuntu 12.04 en adelante y es incompatible con Debian, pero, he encontrado un “fork” que si funciona en diferentes distribuciones entre ellas mi distro: Debian. Esta rama, tiene más funcionalidad y correcciones de fallos.
 
 Instalación en Debian Stretch
 Script de instalación y comentarios sobre las instrucciones:
