@@ -9,7 +9,7 @@ apt-get -y update
 apt-get -y upgrade
 
 #Instalamos curl y añadimos la clave publica
-apt-get -y install curl
+apt-get -y install curl lxc
 curl https://packagecloud.io/gpg.key | apt-key add -
 apt-get -y update
 
